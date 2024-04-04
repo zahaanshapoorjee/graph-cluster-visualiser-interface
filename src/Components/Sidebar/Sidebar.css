@@ -1,41 +1,37 @@
-/* Sidebar styles */
 .sidebar {
     width: 300px;
     padding: 20px;
-    background-color: #fff; /* white background */
-    border-right: 2px solid #c62828; /* red border line */
+    background-color: #fff; 
+    border-right: 2px solid #c62828; 
     height: 100vh;
     overflow-y: auto;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
-  /* Buttons and inputs with red accents */
   .sidebar button {
     display: block;
     margin-bottom: 10px;
-    background-color: #c62828; /* red background */
+    background-color: #c62828; 
     color: #fff; /* white text */
     border: none;
     padding: 10px;
     cursor: pointer;
-    border-radius: 4px; /* rounded corners */
+    border-radius: 4px;
   }
   
   .sidebar input[type="text"] {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #c62828; /* red border */
-    border-radius: 4px; /* rounded corners */
+    border: 1px solid #c62828;
+    border-radius: 4px; 
   }
   
-  /* Headings with a red color */
   .sidebar h3 {
     margin-top: 20px;
-    color: #c62828; /* red color for headings */
+    color: #c62828; 
   }
   
-  /* Other styles remain the same */
   .sidebar .settings input[type="range"] {
     width: 100%;
   }
@@ -43,24 +39,21 @@
   .sidebar .settings input[type="number"] {
     width: 100%;
     padding: 5px;
-    border: 1px solid #c62828; /* red border */
-    border-radius: 4px; /* rounded corners */
+    border: 1px solid #c62828; 
+    border-radius: 4px; 
   }
   
-  /* Styling for labels to have red color */
   .sidebar label {
-    color: #c62828; /* red text for labels */
-    display: block; /* ensures the label block-level for better layout */
-    margin: 10px 0; /* space out elements */
+    color: #c62828; 
+    display: block; 
+    margin: 10px 0; 
   }
   
-  /* Add styles for checkboxes */
   .sidebar input[type="checkbox"] {
-    accent-color: #c62828; /* red accent for checkboxes */
+    accent-color: #c62828; 
   }
   
-  /* Add a hover effect for buttons */
   .sidebar button:hover {
-    background-color: #b71c1c; /* a darker red for button hover state */
+    background-color: #b71c1c;
   }
   
